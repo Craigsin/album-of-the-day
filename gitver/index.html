@@ -1,0 +1,87 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+<div id="background"></div>
+<div id="watermark">Album of the day</div>
+<p>Curated by Brian and Craig</p>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="1">
+        <strong>Led Zeppelin</strong>
+        <p>These are the gods of rock and this is their masterpiece. No person who claims to listen to rock should be without it</p>
+
+    </div>
+
+    <div id="QUOTE2-explained" class="step" data-x="0" data-y="-1000" data-rotate="0" data-scale="1">
+        <strong>Lorde</strong>
+        <p>Let this young lady's dulcet tones swoop you away from the trials and tribulations of everyday life!</p>
+
+    </div>
+
+    <div id="QUOTE3-explained" class="step" data-x="1000" data-y="-1000" data-rotate="45" data-scale="1">
+        <strong>Bat For Lashes</strong>
+        <p>a harpsichord-led track embellished with Theremin and a militaristic drum motif</p>
+
+    </div>
+
+    <div id="QUOTE4-explained" class="step" data-x="1000" data-y="0" data-rotate="90"data-scale="1">
+        <strong>Mile Davis - Kind of Blue</strong>
+        <p>This painterly masterpiece would become one of the most important, influential and popular albums in jazz</p>
+    </div>
+
+    <div id="QUOTE5-explained" class="step" data-x="1000" data-y="1000" data-z="0" data-rotate="135" data-scale="1">
+        <strong>Morcheeba - Big Calm</strong>
+        <p>They started this whole Bristol sound thing, with sleepy techno beats overshadowed by the chirrupy vocals of some slumberland chanteuse.</p>
+    </div>
+
+    <div id="QUOTE6-explained" class="step" data-x="0" data-y="1000" data-z="0"  data-rotate="180"  data-scale="1">
+        <strong>The Helio Sequence</strong>
+        <p>The Helio Sequence has a unique production sound consisting of layered guitars (never egregious or out of place), synthesizers, and fantastic drums.</p>
+    </div>
+
+
+    <div id="QUOTE7" class="step" data-x="-1000" data-y="1000" data-rotate="225" data-scale="1">
+        <strong> Paper Aeroplanes</strong>
+        <p>Gentle, ethereal, beautiful. </p>
+
+    </div>
+
+    <div id="QUOTE8" class="step" data-x="-1000" data-y="0" data-scale="1" data-rotate="270">
+        <strong>Seal - Seal</strong>
+        <p>“20 years old and still outstanding. I would have given it 5 stars at the time of original release, and today the same, easily.</p>
+
+    </div>
+    <div id="QUOTE9" class="step" data-x="-1000" data-y="-1000" data-scale="1" data-rotate="315" >
+        <strong>Loreena McKennitt - The Book Of Secrets</strong>
+        <p>I find that 'Dante's Prayer' provides the most haunting finish to a superb collection of songs, staying with me long after the album has played out.</p>
+
+    </div>
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.js"></script>
+<script>
+    var api = impress();
+    api.init();
+
+</script>
+</body>
+</html>

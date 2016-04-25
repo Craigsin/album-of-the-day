@@ -1,0 +1,22 @@
+#interview-requirements {
+  margin-left: 100px;
+  list-style: inherit;
+  margin-bottom: 50px; }
+
+#background {
+  opacity: 0.2;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%; }
+
+.step {
+  background: #CDCDCD;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */
